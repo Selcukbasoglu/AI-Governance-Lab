@@ -3,7 +3,6 @@ import os
 import pandas as pd
 from deepchecks.tabular import Dataset
 from deepchecks.tabular.suites import data_integrity, model_evaluation
-# KRİTİK DÜZELTME: Hata veren Suite import'larını sildik.
 
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
