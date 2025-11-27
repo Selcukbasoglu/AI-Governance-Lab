@@ -14,3 +14,7 @@ reports/*.json
 
 # Operating System Files
 .DS_Store
+
+# Report Outputs
+reports/
+*.html
