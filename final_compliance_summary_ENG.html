@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Compliance GATE Summary - Selçuk BAŞOĞLU</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; color: #333; line-height: 1.6; margin: 20px; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+        h1 { color: #1e88e5; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px; margin-bottom: 20px; }
+        .result-box { background-color: #ffebee; border-left: 5px solid #e53935; padding: 15px; margin-bottom: 25px; border-radius: 8px; }
+        .result-box.pass { background-color: #e8f5e9; border-left: 5px solid #43a047; }
+        .header-section { background-color: #f5f5f5; padding: 10px; border-radius: 6px; margin-bottom: 15px; }
+        .check-item { margin: 5px 0; padding-left: 15px; font-weight: 500; }
+        .fail { color: #e53935; }
+        .warn { color: #ffb300; }
+        .pass-text { color: #43a047; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 AI Compliance GATE Summary</h1>
+        
+        <div class="header-section">
+            <strong>Analysis Date:</strong> 2025-11-27<br>
+            <strong>Project:</strong> UCI Adult Dataset (Loan Application Data)<br>
+        </div>
+
+        <h2>⚖️ Algorithmic Bias Check (EU AI Act Article 10)</h2>
+        <div class="result-box warn">
+            <p><strong>⚠️ WARNING: Female representation is below 35% (Potential Bias Risk)</strong></p>
+            <p>Male Ratio: <span class="pass-text">66.9%</span> | Female Ratio: <span class="warn">33.1%</span></p>
+            <p><em>(Note: Low female representation increases the risk of discrimination against female applicants.)</em></p>
+        </div>
+
+        <h2>🛠️ Data Integrity (Deepchecks) Results</h2>
+        <div class="result-box">
+            <strong>Failed Checks:</strong>
+            <ul>
+                <li class="fail">❌ Conflicting Labels (Algorithmic Inconsistency)</li><li class="fail">❌ Feature Correlation (Data Redundancy)</li><li class="fail">❌ Special Characters (Data Dirtiness)</li><li class="fail">❌ String Mismatch (Inconsistent Formatting)</li>
+            </ul>
+        </div>
+        
+        <h2>🚨 GATE DECISION (CI/CD Output)</h2>
+        <div class="result-box">
+            <p style="font-size: 1.2em; font-weight: bold;">⛔ GATE REJECTED: Data standards violated. Deployment stopped.</p>
+        </div>
+        
+        <p style="margin-top: 30px; font-size: 0.9em; color: #757575;">
+            This audit was generated to demonstrate Selçuk Başoğlu's expertise in **Site Reliability Engineering (SRE)** and **AI Governance**.
+        </p>
+
+    </div>
+</body>
+</html>

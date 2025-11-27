@@ -1,0 +1,16 @@
+# Python Environment & Cache
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Report Outputs
+reports/*.html
+reports/*.json
+
+# Data Files
+*.csv
+*.data
+
+# Operating System Files
+.DS_Store

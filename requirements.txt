@@ -1,0 +1,9 @@
+# Core Data Science Libraries
+pandas
+scikit-learn
+numpy<2.0   # Numpy sürümü sorununu çözmek için eski sürümü zorluyoruz
+
+# AI Governance & Visualization
+deepchecks
+plotly
+ipywidgets
